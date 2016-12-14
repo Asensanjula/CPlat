@@ -12,6 +12,16 @@
 		<url-pattern>/cData/*</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>Zuba Controller</servlet-name>
+		<servlet-class>lsf.zuba.main.zuba_main</servlet-class>
+		
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Zuba Controller</servlet-name>
+		<url-pattern>/zuba</url-pattern>
+	</servlet-mapping>
+	
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>

@@ -59,14 +59,14 @@
   <div class="container">
  	 <div class="row">
 			<div class="col-md-12">
-			<form id="areaform" method="POST" action="cData/helloworld">
+			<form id="areaform" method="GET" action="zuba">
 				<div class="form-group">
  
 					<label for="code" class="col-sm-12 control-label">Script:</label>
 					 
 						<div class="col-md-12">
 					 
-							<textarea id="txtarea" class="form-control inputstl" rows="10" ></textarea>
+							<textarea name="txtarea" id="txtarea" class="form-control inputstl" rows="10" ></textarea>
 					 
 						</div>
 						<div class="col-md-offset-11">
@@ -132,8 +132,8 @@ setTimeout(function () {
 function createJSON(){
 		var area = document.getElementById('txtarea').value;
 		if(area!=""){
-			var obj = JSON.parse(area);//This is the JSON OBJECT
-			sendData(obj);
+			//var obj = JSON.parse(area);//This is the JSON OBJECT
+			//sendData(obj);
 		    document.getElementById("areaform").submit();
 		    
 		}
