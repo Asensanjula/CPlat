@@ -59,7 +59,7 @@
   <div class="container">
  	 <div class="row">
 			<div class="col-md-12">
-			<form id="areaform" method="GET" action="zuba">
+			<form id="areaform" method="GET" action="testgraph.html">
 				<div class="form-group">
  
 					<label for="code" class="col-sm-12 control-label">Script:</label>

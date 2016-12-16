@@ -24,8 +24,9 @@
       </plugin>
     </plugins>
   </build>
-   <dependencies>
-   			<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+  
+    <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
@@ -37,13 +38,6 @@
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>5.1.6</version>
-</dependency>
-  
-  <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-<dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.7</version>
 </dependency>
 
 <dependency>
@@ -60,12 +54,6 @@
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20140107</version>
-</dependency>
-  <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-<dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.7</version>
 </dependency>
 
 <dependency>
@@ -85,7 +73,5 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
 		</dependency>
-
-   
-   </dependencies>
+  </dependencies>
 </project>
