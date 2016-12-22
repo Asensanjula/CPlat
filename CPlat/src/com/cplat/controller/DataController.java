@@ -30,7 +30,7 @@ public class DataController {
 		//String type = "line";
 		String xtype = "timeseries";
 		
-		//String zuba_query = "DRAW CHART bar TO matrix FOR {SELECT Date, PRC, Pseudo_PRC, Turnover FROM cep_simulator;} WHICH X:a, Y:b";
+		//String zuba_query = "DRAW CHART bar TO matrix FOR {SELECT Date, PRC, Pseudo_PRC, Turnover FROM cep_simulator} WHICH X:a, Y:b";
 		
 		System.out.println(zuba_query);
 		
